@@ -15,7 +15,8 @@ let supportedVersions = [
   '0.5.13',
   '0.5.14',
   '0.5.15',
-  '0.6.0'
+  '0.6.0',
+  '0.6.2'
 ]
 
 const maxVersion = '0.6.0'
