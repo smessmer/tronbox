@@ -40,7 +40,7 @@ function getWrapper(options = {}) {
     supportedVersions.map( a => a.split('.').map( n => +n+100000 ).join('.')).sort()
       .map( a => a.split('.').map( n => +n-100000 ).join('.'));
 
-  let compilerVersion = '0.5.4'
+  let compilerVersion = '0.6.2'
   const solcDir = path.join(homedir(), '.tronbox', 'solc')
 
   if (options.networks) {
